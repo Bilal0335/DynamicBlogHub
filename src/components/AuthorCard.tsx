@@ -9,12 +9,19 @@ const AuthorCard = () => {
           alt="Author Image 1"
           className="w-16 h-16 rounded-full mr-4 object-cover border-2 border-red-400"
         />
-
         <div>
-          <h3 className="text-xl font-bold">M. Bilal Hussain</h3>
-          <p className="text-slate-500">Frontend Developer | SQL</p>
+          <h3 className="text-xl font-bold text-gray-800">M. Bilal Hussain</h3>
+          <p className="text-slate-500">Frontend Developer | SQL Enthusiast</p>
         </div>
       </div>
+      <p className="mt-4 leading-relaxed text-gray-700">
+        I am a passionate Software Engineering student at Sindh Madressatul
+        Islam University, Karachi, specializing in web development and
+        programming. I have hands-on experience with HTML, CSS, JavaScript, and
+        TypeScript, and I am continuously learning new technologies like Next.js
+        and Python. My aim is to build user-friendly, efficient applications
+        while constantly enhancing my technical skills.
+      </p>
     </div>
   );
 };
