@@ -22,6 +22,26 @@ const AuthorCard = () => {
         and Python. My aim is to build user-friendly, efficient applications
         while constantly enhancing my technical skills.
       </p>
+      <div className="mt-4 flex space-x-3">
+        <a
+          href="#"
+          className="px-4 py-2 text-white bg-blue-600 rounded-md transition duration-300 hover:bg-blue-700"
+        >
+          Twitter
+        </a>
+        <a
+          href="#"
+          className="px-4 py-2 text-white bg-blue-600 rounded-md transition duration-300 hover:bg-blue-700"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="#"
+          className="px-4 py-2 text-white bg-blue-600 rounded-md transition duration-300 hover:bg-blue-700"
+        >
+          Github
+        </a>
+      </div>
     </div>
   );
 };
